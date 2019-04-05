@@ -9,6 +9,7 @@ namespace RussianPeasantMultiplicationTests
         [TestMethod]
         [DataRow(47, 42, 1974)]
         [DataRow(13, 238, 3094)]
+        [DataRow(2, 2, 4)]
         public void Mul_Values_Result(int left, int right, int expectedResult)
         {
             #region ARRANGE
